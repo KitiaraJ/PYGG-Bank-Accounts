@@ -1,0 +1,130 @@
+body
+{
+	background-color: #0000CC;
+	font-family: "Comic Sans MS", san-serif;
+	color: white;
+}
+
+#wrapper
+{
+	width: 80%;
+	margin: auto;
+	background-color: #3333ff;
+	padding: 5px;
+}
+
+header { 
+	background-color: white;
+    background-image: url(../img/Bank.jpg);
+	background-repeat: no-repeat;
+    color: #0000CC; 
+	padding: 10px;
+	}
+	
+header h1 { 
+	padding-left: 200px;
+	}
+	
+header h2 { 
+	margin-top: 0; 
+    padding-left: 200px;
+    font-size: .90em; 
+	font-style: italic;
+    text-align: left; 
+	color: #0000CC; 
+	}
+
+nav a
+{
+	width: 80%;
+	text-decoration: none;
+	color: white;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover
+{
+	color: #00b300;
+}
+
+a:visited
+{
+	color: #ff99ff;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+nav table
+{
+	margin: auto;
+	width: 100%;
+}
+	
+
+nav th{
+	width: 85%;
+	margin: auto;
+	height: 50px;
+}
+
+nav th
+{
+	border: solid 2px;
+	width: 50px;
+	background-color: #0000CC;
+}
+
+.left
+{
+	text-align: center;
+}
+p
+{
+	text-align: center;
+	height: 200%;
+}
+
+section table
+{
+	width: 80%;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+section thead
+{
+	border-bottom: solid 1px;
+}
+
+section th
+{
+	text-align: left;
+	font-size: 16pt;
+}
+
+#mySubmit
+{
+	float: right;
+	display: block;
+}
+
+form
+{
+	padding-bottom: 30px;
+}
+footer
+{
+	text-align: center;
+}
+
+.clear{
+	clear: both;
+}
